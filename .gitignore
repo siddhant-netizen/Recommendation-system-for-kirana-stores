@@ -1,0 +1,21 @@
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Cache & snapshots
+locality_cache.json
+rfm_snapshot.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Logs
+*.log
+
+# Old scripts
+scripts/*_old.py
+
